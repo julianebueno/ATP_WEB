@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CADASTRO</title>
+		<link rel="stylesheet" href="css\estilo.css">
+	</head>
+
+	<body>
+		<img src="img/logo.svg" alt= "I-TOOK" width="5%">
+		
+		<table> 
+			<tr> 
+				<td width="20%">
+					<br>
+					<a class="menu" href="inicio.html"><strong>Pagina Inicial</strong></a><br><br>
+					<a class="menu" href="cadastro.html"><strong>Cadastrar novo empréstimo</strong></a><br><br>
+					<a class="menu" href="alterar.html"><strong>Alterar seus dados</strong></a><br><br>
+					<a class="menu" href="index.html"><strong>Sair</strong></a><br><br>
+				</td> 
+				<td>
+					<h2>Segunda página</h2><br>
+					<h4>Cadastrar novo empréstimo</h4><br>
+				</td> 
+			</tr> 
+
+			<tr> 
+				<td colspan="2">
+					<form>
+						<label for="item">Item:</label>
+						<input type="text" id="item" name="item" required placeholder="ITEM">
+						<label for="telefone">Contato:</label>
+						<input type="text" id="telefone" name="telefone" required placeholder="TELEFONE"><br>
+						<label for="data">Data saída:</label>
+						<input type="date" id="data" name="data" required placeholder="DATA">
+						<label for="devolucao">Data devolução:</label>
+						<input type="date" id="devolucao" name="devolucao" required placeholder="DEVOLUÇÃO"><br>
+						<input type="submit" value="CADASTRAR">
+					</form>
+				</td> 
+			</tr>
+		</table> 
+	</body>
+</html>
